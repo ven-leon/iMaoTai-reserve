@@ -45,8 +45,8 @@ jobs:
 
       - name: start run
         env:
-          PUSHPLUS_KEY: ${{ secrets.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 }}
-          PRIVATE_AES_KEY: ${{ secrets.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 }}
+          PUSHPLUS_KEY: ${{ secrets.7242f2e0297845a18baa899a603054d2 }}
+          PRIVATE_AES_KEY: ${{ secrets.SdpSKY6Vphwc824eWfP4gclyq7oyj9xXUxmEjgnvlAE }}
         run: |
           python main.py
 
